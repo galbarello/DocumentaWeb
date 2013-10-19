@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using System.Linq;
 using System.Text;
+using Documenta.Infraestructure.Domain;
 
 namespace Documenta.Tests
 {

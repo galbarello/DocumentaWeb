@@ -48,6 +48,7 @@
     <Compile Include="Storage\IEventStore.cs" />
     <Compile Include="Bus\DelegateAdjuster.cs" />
     <Compile Include="Domain\DomainError.cs" />
+    <Compile Include="Storage\MongoStore.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

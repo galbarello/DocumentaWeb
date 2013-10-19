@@ -42,6 +42,8 @@
     <Compile Include="SpecificationInfo.cs" />
     <Compile Include="IAmFakeEventForTesting.cs" />
     <Compile Include="SpecSetupEvent.cs" />
+    <Compile Include="Storage\FakeEventStore.cs" />
+    <Compile Include="EventStoreTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -49,5 +51,8 @@
       <Project>{D45AA707-CF0E-4C5A-9B75-FC8814AABAC2}</Project>
       <Name>Documenta.Infraestructure</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Storage\" />
   </ItemGroup>
 </Project>

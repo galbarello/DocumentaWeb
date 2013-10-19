@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Documenta.Infraestructure
+namespace Documenta.Infraestructure.Storage
 {
 	public interface IEventStore
 	{

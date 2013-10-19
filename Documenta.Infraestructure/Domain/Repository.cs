@@ -1,4 +1,5 @@
 using System;
+using Documenta.Infraestructure.Storage;
 
 namespace Documenta.Infraestructure.Domain
 {
