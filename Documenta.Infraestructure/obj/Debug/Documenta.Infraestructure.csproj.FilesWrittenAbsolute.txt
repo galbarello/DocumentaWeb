@@ -1,0 +1,5 @@
+/home/guillermo/Projects/Documenta/Documenta.Infraestructure/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/guillermo/Projects/Documenta/Documenta.Infraestructure/bin/Debug/Documenta.Infraestructure.dll.mdb
+/home/guillermo/Projects/Documenta/Documenta.Infraestructure/bin/Debug/Documenta.Infraestructure.dll
+/home/guillermo/Projects/Documenta/Documenta.Infraestructure/obj/Debug/Documenta.Infraestructure.dll
+/home/guillermo/Projects/Documenta/Documenta.Infraestructure/obj/Debug/Documenta.Infraestructure.dll.mdb

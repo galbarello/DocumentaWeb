@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D45AA707-CF0E-4C5A-9B75-FC8814AABAC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Documenta.Infraestructure</RootNamespace>
+    <AssemblyName>Documenta.Infraestructure</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="InMemoryBus.cs" />
+    <Compile Include="IBus.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="DelegateAdjuster.cs" />
+    <Compile Include="IEventStore.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="AggregateRoot.cs" />
+    <Compile Include="DomainError.cs" />
+    <Compile Include="IPublisher.cs" />
+    <Compile Include="ISender.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
