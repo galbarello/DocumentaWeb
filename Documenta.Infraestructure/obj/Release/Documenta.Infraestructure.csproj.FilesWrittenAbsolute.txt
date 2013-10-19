@@ -1,5 +1,0 @@
-/home/guillermo/Projects/Documenta/Documenta.Infraestructure/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
-/home/guillermo/Projects/Documenta/Documenta.Infraestructure/bin/Release/Documenta.Infraestructure.dll.mdb
-/home/guillermo/Projects/Documenta/Documenta.Infraestructure/bin/Release/Documenta.Infraestructure.dll
-/home/guillermo/Projects/Documenta/Documenta.Infraestructure/obj/Release/Documenta.Infraestructure.dll
-/home/guillermo/Projects/Documenta/Documenta.Infraestructure/obj/Release/Documenta.Infraestructure.dll.mdb
