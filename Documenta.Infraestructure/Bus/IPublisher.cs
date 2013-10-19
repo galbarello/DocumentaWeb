@@ -1,6 +1,6 @@
 using System;
 
-namespace Documenta.Infraestructure
+namespace Documenta.Infraestructure.Bus
 {
 	public interface IPublisher
 	{

@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace Documenta.Infraestructure
+namespace Documenta.Infraestructure.Bus
 {
 	public class DelegateAdjuster
 	{

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Documenta.Infraestructure
+namespace Documenta.Infraestructure.Domain
 {
 	public abstract class AggregateRoot
 	{

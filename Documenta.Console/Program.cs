@@ -1,7 +1,7 @@
 namespace Documenta.Console
 {
 	using System;
-	using Documenta.Infraestructure;
+	using Documenta.Infraestructure.Bus;
 
 	class MainClass
 	{

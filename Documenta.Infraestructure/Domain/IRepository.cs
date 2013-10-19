@@ -1,6 +1,6 @@
 using System;
 
-namespace Documenta.Infraestructure
+namespace Documenta.Infraestructure.Domain
 {
 	public interface IRepository<T> where T : AggregateRoot, new()
 	{

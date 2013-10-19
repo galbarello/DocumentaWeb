@@ -1,6 +1,6 @@
 using System;
 
-namespace Documenta.Infraestructure
+namespace Documenta.Infraestructure.Domain
 {
 	public class Repository<T> : IRepository<T> where T: AggregateRoot, new() //shortcut you can do as you see fit with new()
 	{

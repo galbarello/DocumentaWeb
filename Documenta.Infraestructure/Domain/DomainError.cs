@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Documenta.Infraestructure
+namespace Documenta.Infraestructure.Domain
 {
 	/// <summary>
 	/// Special exception that is thrown by application services

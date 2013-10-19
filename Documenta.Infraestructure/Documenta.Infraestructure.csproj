@@ -34,20 +34,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="InMemoryBus.cs" />
-    <Compile Include="IBus.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Event.cs" />
-    <Compile Include="DelegateAdjuster.cs" />
-    <Compile Include="IEventStore.cs" />
     <Compile Include="Exceptions.cs" />
-    <Compile Include="IRepository.cs" />
-    <Compile Include="Repository.cs" />
-    <Compile Include="AggregateRoot.cs" />
-    <Compile Include="DomainError.cs" />
-    <Compile Include="IPublisher.cs" />
-    <Compile Include="ISender.cs" />
+    <Compile Include="Bus\IBus.cs" />
+    <Compile Include="Bus\InMemoryBus.cs" />
+    <Compile Include="Bus\IPublisher.cs" />
+    <Compile Include="Bus\ISender.cs" />
+    <Compile Include="Domain\AggregateRoot.cs" />
+    <Compile Include="Domain\IRepository.cs" />
+    <Compile Include="Domain\Repository.cs" />
+    <Compile Include="Storage\IEventStore.cs" />
+    <Compile Include="Bus\DelegateAdjuster.cs" />
+    <Compile Include="Domain\DomainError.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Bus\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Storage\" />
+  </ItemGroup>
 </Project>
